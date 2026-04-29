@@ -1,0 +1,6 @@
+abstract;
+strict ( 2 );
+with hierarchy;
+define behavior for ZA_MASSAGE_CRETE_CHEQUE //alias <alias_name>
+{
+}

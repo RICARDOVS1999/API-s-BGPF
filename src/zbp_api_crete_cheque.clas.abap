@@ -1,0 +1,5 @@
+CLASS zbp_api_crete_cheque DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zapi_crete_cheque.
+ENDCLASS.
+
+CLASS zbp_api_crete_cheque IMPLEMENTATION.
+ENDCLASS.

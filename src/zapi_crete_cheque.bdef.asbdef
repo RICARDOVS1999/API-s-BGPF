@@ -1,0 +1,16 @@
+unmanaged implementation in class zbp_api_crete_cheque unique;
+strict ( 2 );
+
+define behavior for ZAPI_CRETE_CHEQUE //alias <alias_name>
+//late numbering
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  //  create ( authorization : global );
+  //  update;
+  //  delete;
+  action create_cheque deep parameter ZA_INPUT_DATA_CHEQUE_CREATE
+  deep result [1] ZA_MASSAGE_CRETE_CHEQUE;
+  field ( readonly ) ClearingDocumentNumber, ClearingDocumentYear;
+}

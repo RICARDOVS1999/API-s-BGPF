@@ -1,0 +1,4 @@
+@EndUserText.label: 'Defición de servicio de api de cración de cheques'
+define service ZSD_API_CREATE_CHEQUE {
+  expose ZAPI_CRETE_CHEQUE;
+}

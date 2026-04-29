@@ -1,0 +1,8 @@
+abstract;
+strict ( 2 );
+with hierarchy;
+define behavior for ZA_INPUT_DATA_CHEQUE_CREATE //alias <alias_name>
+{
+  //    field( mandatory ) Banco_propio, Ejercicio, ID_Cuenta, Numero_Cheque, Numero_doc_pago, Sociedad;
+
+}
